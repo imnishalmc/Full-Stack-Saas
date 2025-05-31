@@ -1,0 +1,54 @@
+-npm init -y
+-npm i express//yo ma pacakges haru ta install hunxa  tara yo ma chai type wala file ma ni milxa 
+
+//npm install typescript --save-dev----this is  must
+
+
+-npm i dotenv
+
+-database conigureation ko lagi config folder ma rakhni 
+-npm i -D @types/node-->//yo install garni to resolve the error
+
+ -npm i -D nodemon//yeslay automatically restart garna ko lagi kaam lagxa 
+
+ -packeage.json ko script ma set garni 
+ "start":"nodemon server.ts"
+
+
+ -mailay npm start garda [nodemon] app crashed - waiting for file changes before starting...yo errror aako thiyo so for that
+
+ -npm i -D @types/express
+
+-npm i -D @types/dotenv
+
+
+ERROR AAAYO BHANEY
+
+-npm i -D ts-node // if ts-node is not recognized bhanera error aayesi
+ error -> unknown file extension .ts,,
+ --->npm i-D typescript
+ --->npx tsc --init
+
+ --here we will be using the sequlize orm (main data base is mysql)
+ npm i sequelize
+ npm i mysql2(driver of the mysql)
+
+
+ then make bolder database inside the scr
+ database bhitra pani connection.ts file banauni
+
+ then connextion.ts ma 
+ import{Sequelize} from 'sequelize'
+const sequelize = new Sequelize({
+    database:"project2"
+}) yo code lekhni ,pahilay online bata gareko bhara we need conncetion string but yo case ma hamilay sql use gareko xa which is a local device so pardaina 
+
+infact do the above
+
+--capital Sequelize bhankeo class ho 
+
+
+--ani env ma ni update garni tespaxi tyo sabai kura jastai port ,usrname ,passwrod sabai
+
+
+--
