@@ -17,7 +17,6 @@ const sequelize = new Sequelize({
 sequelize.authenticate()
 .then(()=>{
     console.log("authenticate bhayo")
-    console.log("hii nisha")
 })
 .catch((err)=>{
     console.log("connect bhaya ni ta ",err)
