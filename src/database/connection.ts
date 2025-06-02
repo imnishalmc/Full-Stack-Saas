@@ -17,9 +17,10 @@ const sequelize = new Sequelize({
 sequelize.authenticate()
 .then(()=>{
     console.log("authenticate bhayo")
+    console.log("hii nisha")
 })
 .catch((err)=>{
-    console.log("not connected ",err)
+    console.log("connect bhaya ni ta ",err)
 })
 
 sequelize.sync({force:true})
