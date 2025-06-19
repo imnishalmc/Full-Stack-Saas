@@ -22,9 +22,8 @@ sequelize.authenticate()
     console.log("connect bhaya ni ta ",err)
 })
 
-sequelize.sync({force:true})
+sequelize.sync({alter:false})
 .then(()=>{
     console.log("migrated sucessfully")
 })
-
 export default sequelize

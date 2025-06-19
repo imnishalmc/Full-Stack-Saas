@@ -30,7 +30,7 @@ class user extends Model{
     @Column({
         type:DataType.STRING
     })
-    declare Email:string
+    declare email:string
  //enum le boundry set garxa ,,role ma aauni data bhaneko yeti matrai ho yo bhanda aru aaunaa mildaina 
     @Column({
         type:DataType.ENUM('teacher','institute','super-admin','student'),
